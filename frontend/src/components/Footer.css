@@ -1,0 +1,166 @@
+/* /* .footer1{
+    width:100%;
+    /* height:400px; */
+    /* background-color: rgb(66, 58, 58);
+    color:white;
+   
+}
+.foot{
+
+
+    margin-top: 5px;
+   
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    margin-bottom: 2rem;
+}
+.fot-part1{
+    margin-top: 3rem;
+    /* font-size: 2rem; */
+    /* font-weight: 500;
+    
+
+   
+}
+.fot-part1 li {
+    list-style: none;
+    margin: 6px;
+}
+.footer-text-a{
+    color: whitesmoke;
+}
+.footer-text-b{
+    color: whitesmoke;
+}
+
+.footer-text-c{
+    color: whitesmoke;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-bottom-text {
+    font-size: 0.9rem;
+    color: whitesmoke; /* Gray color */
+    /* margin-bottom: 1.5rem;
+  }
+  
+  .footer-bottom-text a.footer-link {
+    color: #ecf0f1;
+  }
+  
+  .footer-bottom-text a.footer-link:hover {
+    /* color: #e74c3c;
+  } */
+  
+  /* .heart { */
+    /* color: #e74c3c; Red color */
+  /* }  */ 
+
+  /* Footer.css */
+
+.footer {
+  width: 100%;
+  background-color: #423a3a; /* Dark background */
+  color: #f5f5f5; /* Light text for contrast */
+  padding: 20px 10%;
+  box-sizing: border-box;
+}
+
+.footer-divider {
+  border: 0;
+  height: 1px;
+  background: #555;
+  margin: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1 1 200px; /* Grow, shrink, basis */
+  min-width: 200px;
+}
+
+.footer-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e74c3c; /* Accent color */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #e74c3c; /* Accent hover color */
+}
+
+.footer-section address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.footer-section p a {
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section p a:hover {
+  color: #e74c3c;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.heart {
+  color: #e74c3c;
+}
+
+/* Responsive Design */
+
+@media (min-width: 768px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer-bottom p {
+    margin: 0;
+  }
+}
